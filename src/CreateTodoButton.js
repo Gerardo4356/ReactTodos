@@ -1,7 +1,8 @@
+import './CreateTodoButton.css';
 
 function CreateTodoButton() {
   return (
-    <input type="button" value="+"></input>
+    <input className="CreateTodoButton" type="button" value="+"></input>
   );
 }
 
